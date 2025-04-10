@@ -48,7 +48,7 @@ fun BookSearchBar(
         OutlinedTextField(
             value = searchQuery,
             onValueChange = onSearchQueryChange,
-            shape = RoundedCornerShape(16.dp),
+            shape = RoundedCornerShape(100),
             colors = OutlinedTextFieldDefaults.colors(
                 cursorColor = DarkBlue,
                 focusedBorderColor = SandYellow,
